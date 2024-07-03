@@ -21,9 +21,12 @@
 
 .footer .github{
     display: flex;
+    align-items: center;
+    justify-content: center;
     position: absolute;
     right: 0;
     border-left: 1px solid #1E2D3D;
     width: 200px;
+    height: 55px;
     /* height: 100%; */
 }

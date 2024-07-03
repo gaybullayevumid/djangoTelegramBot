@@ -1,5 +1,7 @@
 import React from 'react'
 import './Footer.css'
+import { Link } from 'react-router-dom'
+
 
 export default function Footer() {
     return (
@@ -7,12 +9,16 @@ export default function Footer() {
             <div className="footer">
                 <ul>
                     <li>find me in:</li>
-                    <li><img src={"/twitter.png"} alt="twitter" /></li>
-                    <li><img src={"/facebook.png"} alt="facebook" /></li>
+                    <li>
+                        <Link><img src={"/twitter.png"} alt="twitter" /></Link>
+                    </li>
+                    <li>
+                        <Link><img src={"/facebook.png"} alt="facebook" /></Link>
+                    </li>
                 </ul>
                 <div className="github">
                     <p>@gaybullayevumid</p>
-                    <img src={"/github.png"} alt="github" />
+                    <Link><img src={"/github.png"} alt="github" /></Link>
                 </div>
             </div>
         </>
