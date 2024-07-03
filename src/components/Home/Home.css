@@ -1,0 +1,33 @@
+.home {
+    width: 100%;
+    height: 84vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+h5 {
+    color: #E5E9F0;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+h1 {
+    color: #E5E9F0;
+    font-weight: 400;
+    font-size: 62px;
+}
+
+h3 {
+    color: #4D5BCE;
+    font-weight: 450;
+    font-size: 32px;
+    margin: 0 0 50px 0;
+}
+
+p {
+    color: #607B96;
+    font-size: 16px;
+    line-height: 1.5;
+}

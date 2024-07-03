@@ -1,0 +1,29 @@
+.footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #1E2D3D;
+    border-bottom: 1px solid #1E2D3D;
+    position: relative;
+}
+
+.footer ul{
+    display: flex;
+    list-style: none;
+}
+
+.footer ul li{
+    color: #607B96;
+    padding: 17px 32px;
+    border-right: 1px solid #1E2D3D;
+    height: 55px;
+}
+
+.footer .github{
+    display: flex;
+    position: absolute;
+    right: 0;
+    border-left: 1px solid #1E2D3D;
+    width: 200px;
+    /* height: 100%; */
+}
