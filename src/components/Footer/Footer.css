@@ -17,10 +17,25 @@
     padding: 17px 32px;
     border-right: 1px solid #1E2D3D;
     height: 55px;
+    position: relative;
+}
+
+.footer ul li a{
+    width: 100%;
+    height: 100%;
+    color: #607B96;
+    position: absolute;
+    padding: 17px 32px;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer .github{
     display: flex;
+    gap: 5px;
     align-items: center;
     justify-content: center;
     position: absolute;
