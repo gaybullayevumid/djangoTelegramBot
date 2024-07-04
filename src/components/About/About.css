@@ -1,4 +1,54 @@
-.about{
+.about {
     width: 100%;
-    height: 90vh;
+    height: 84vh;
+    display: flex;
+}
+
+.about .menu {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 33px;
+    flex-direction: column;
+    width: 5%;
+    height: 100%;
+    border-right: 1px solid #1E2D3D;
+    border-left: 1px solid #1E2D3D;
+    padding: 18px 0;
+}
+
+.about .folder-tab {
+    width: 260px;
+    height: 100%;
+    border-right: 1px solid #1E2D3D;
+}
+
+.about .folder-tab .title {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 80px 10px 34px;
+    gap: 11px;
+    border-bottom: 1px solid #1E2D3D;
+}
+
+.about .folder-tab .folder {
+    padding: 10px 80px 10px 34px;
+    border-bottom: 1px solid #1E2D3D;
+    /* line-height: 1.5; */
+}
+
+.about .folder-tab .folder:last-child {
+    border: none;
+}
+
+.about .folder-tab .folder .folder-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    line-height: 1.9;
+    cursor: pointer;
 }
