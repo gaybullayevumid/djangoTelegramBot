@@ -28,5 +28,11 @@
     border-left: 1px solid #1E2D3D;
     width: 200px;
     height: 55px;
-    /* height: 100%; */
+    position: absolute;
+    padding: 17px 32px;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

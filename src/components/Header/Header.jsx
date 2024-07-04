@@ -9,7 +9,7 @@ export default function Header() {
             <Link to={"/"}>umid-g'aybullayev</Link>
             </div>
             <ul>
-                <li>
+                <li className='active'>
                     <Link to={"/"}>_hello</Link>
                 </li>
                 <li>
