@@ -18,7 +18,7 @@
 }
 
 .about .folder-tab {
-    width: 260px;
+    width: 20%;
     height: 100%;
     border-right: 1px solid #1E2D3D;
 }
@@ -50,5 +50,30 @@
     align-items: center;
     gap: 10px;
     line-height: 1.9;
+    cursor: pointer;
+}
+
+.about .folder-main {
+    width: 100%;
+    height: 100%;
+    border-right: 1px solid #1E2D3D;
+    /* border-bottom: 1px solid #1E2D3D; */
+}
+
+.about .folder-main .main-tab{
+    width: 220px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 10px 80px 10px 34px; */
+    border-bottom: 1px solid #1E2D3D;
+    border-right: 1px solid #1E2D3D;
+}
+
+.about .folder-main .main-tab p{
+    display: flex;
+    align-items: center;
+    gap: 45px;
     cursor: pointer;
 }
