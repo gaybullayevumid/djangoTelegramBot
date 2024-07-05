@@ -132,6 +132,10 @@ export default function About() {
             </svg>
           </p>
         </div>
+        <div className="text">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet consequuntur vitae inventore maiores quod modi illum quisquam harum praesentium fuga. Voluptates optio placeat porro non. Possimus vitae necessitatibus illo harum, esse nisi magni corporis laborum ipsam quae aut eveniet distinctio vero libero officia quaerat culpa impedit a delectus. Facilis nam deserunt sapiente eaque quas iste rerum itaque similique tenetur natus voluptatum vitae voluptatem delectus nisi minima omnis est distinctio nihil dolor, error hic? Obcaecati culpa ratione nemo molestiae omnis inventore, doloremque atque nulla quos. Mollitia provident distinctio veniam doloribus? In aspernatur autem perspiciatis cupiditate quasi possimus pariatur omnis, at architecto.</p>
+        </div>
+
       </div>
     </div>
   )

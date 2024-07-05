@@ -6,7 +6,7 @@ export default function Header() {
     return (
         <div className='navbar'>
             <div className="logo">
-            <Link to={"/"}>umid-g'aybullayev</Link>
+                <Link to={"/"}>umid-g'aybullayev</Link>
             </div>
             <ul>
                 <li className='active'>

@@ -1,4 +1,4 @@
-.footer{
+.footer {
     width: 100%;
     display: flex;
     align-items: center;
@@ -7,12 +7,12 @@
     position: relative;
 }
 
-.footer ul{
+.footer ul {
     display: flex;
     list-style: none;
 }
 
-.footer ul li{
+.footer ul li {
     color: #607B96;
     padding: 17px 32px;
     border-right: 1px solid #1E2D3D;
@@ -20,7 +20,7 @@
     position: relative;
 }
 
-.footer ul li a{
+.footer ul li a {
     width: 100%;
     height: 100%;
     color: #607B96;
@@ -33,7 +33,7 @@
     align-items: center;
 }
 
-.footer .github{
+.footer .github {
     display: flex;
     gap: 5px;
     align-items: center;

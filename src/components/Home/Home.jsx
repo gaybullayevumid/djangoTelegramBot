@@ -14,7 +14,7 @@ export default function Home() {
           <p>const githubLink = “https://github.com/example/url”</p>
         </div>
         <div className="game">
-          <img src={"/Snake Game.png"}/>
+          <img src={"/Snake Game.png"} />
         </div>
       </div>
     </>

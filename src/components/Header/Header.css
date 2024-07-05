@@ -1,4 +1,4 @@
-.navbar{
+.navbar {
     width: 100%;
     display: flex;
     border-top: 1px solid #1E2D3D;
@@ -6,7 +6,7 @@
     position: relative;
 }
 
-.navbar ul{
+.navbar ul {
     list-style: none;
     display: flex;
     padding: 0;
@@ -20,13 +20,13 @@
     padding: 17px 148px 17px 22px;
 }
 
-.navbar .logo a{
+.navbar .logo a {
     text-decoration: none;
     font-size: 16px;
     color: #607B96;
 }
 
-.navbar ul li{
+.navbar ul li {
     border-left: 1px solid #1E2D3D;
     position: relative;
     height: 55px;
@@ -40,12 +40,12 @@
     right: 0;
 }
 
-.navbar ul li:nth-child(3){
+.navbar ul li:nth-child(3) {
     border-right: 1px solid #1E2D3D;
 
 }
 
-.navbar ul li a{
+.navbar ul li a {
     text-decoration: none;
     font-size: 16px;
     width: 100%;
@@ -60,7 +60,7 @@
     align-items: center;
 }
 
-.navbar ul li a:hover{
+.navbar ul li a:hover {
     color: #fff;
     border-bottom: 1px solid #FEA55F;
 }
