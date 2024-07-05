@@ -1,5 +1,6 @@
 import React from 'react'
 import './About.css'
+import Code from '../code/Code'
 
 export default function About() {
   return (
@@ -78,14 +79,14 @@ export default function About() {
             education
           </p>
 
-          <p className="folder-item">
+          <p className="folder-item file">
             <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M1.44684 0.832031H16.0466C16.2617 0.832031 16.468 0.917486 16.6201 1.0696C16.7722 1.22171 16.8577 1.42801 16.8577 1.64313V14.6207C16.8577 14.8358 16.7722 15.0421 16.6201 15.1942C16.468 15.3463 16.2617 15.4318 16.0466 15.4318H1.44684C1.23172 15.4318 1.02542 15.3463 0.873307 15.1942C0.721197 15.0421 0.635742 14.8358 0.635742 14.6207V1.64313C0.635742 1.42801 0.721197 1.22171 0.873307 1.0696C1.02542 0.917486 1.23172 0.832031 1.44684 0.832031ZM4.69122 10.9707V7.72635L6.31342 9.34854L7.93561 7.72635V10.9707H9.5578V5.29306H7.93561L6.31342 6.91525L4.69122 5.29306H3.06903V10.9707H4.69122ZM13.6133 8.53745V5.29306H11.9911V8.53745H10.3689L12.8022 10.9707L15.2355 8.53745H13.6133Z" fill="#81A1C1" />
             </svg>
             high-school
           </p>
 
-          <p className="folder-item">
+          <p className="folder-item file">
             <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M1.44684 0.832031H16.0466C16.2617 0.832031 16.468 0.917486 16.6201 1.0696C16.7722 1.22171 16.8577 1.42801 16.8577 1.64313V14.6207C16.8577 14.8358 16.7722 15.0421 16.6201 15.1942C16.468 15.3463 16.2617 15.4318 16.0466 15.4318H1.44684C1.23172 15.4318 1.02542 15.3463 0.873307 15.1942C0.721197 15.0421 0.635742 14.8358 0.635742 14.6207V1.64313C0.635742 1.42801 0.721197 1.22171 0.873307 1.0696C1.02542 0.917486 1.23172 0.832031 1.44684 0.832031ZM4.69122 10.9707V7.72635L6.31342 9.34854L7.93561 7.72635V10.9707H9.5578V5.29306H7.93561L6.31342 6.91525L4.69122 5.29306H3.06903V10.9707H4.69122ZM13.6133 8.53745V5.29306H11.9911V8.53745H10.3689L12.8022 10.9707L15.2355 8.53745H13.6133Z" fill="#81A1C1" />
             </svg>
@@ -118,22 +119,24 @@ export default function About() {
 
       <div className="folder-main">
         <div className="main-tab">
-          <p>
-            personal-info
-            <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <g clip-path="url(#clip0_64_1646)">
-                <path d="M9.34771 8.71879L13.0602 5.00629L14.1207 6.06679L10.4082 9.77929L14.1207 13.4918L13.0602 14.5523L9.34771 10.8398L5.63521 14.5523L4.57471 13.4918L8.28721 9.77929L4.57471 6.06679L5.63521 5.00629L9.34771 8.71879Z" fill="#607B96" />
-              </g>
-              <defs>
-                <clipPath id="clip0_64_1646">
-                  <rect width="18" height="18" fill="white" transform="translate(0.347656 0.779297)" />
-                </clipPath>
-              </defs>
-            </svg>
-          </p>
+          <header>
+            <p>
+              personal-info
+              <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_64_1646)">
+                  <path d="M9.34771 8.71879L13.0602 5.00629L14.1207 6.06679L10.4082 9.77929L14.1207 13.4918L13.0602 14.5523L9.34771 10.8398L5.63521 14.5523L4.57471 13.4918L8.28721 9.77929L4.57471 6.06679L5.63521 5.00629L9.34771 8.71879Z" fill="#607B96" />
+                </g>
+                <defs>
+                  <clipPath id="clip0_64_1646">
+                    <rect width="18" height="18" fill="white" transform="translate(0.347656 0.779297)" />
+                  </clipPath>
+                </defs>
+              </svg>
+            </p>
+          </header>
         </div>
         <div className="text">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet consequuntur vitae inventore maiores quod modi illum quisquam harum praesentium fuga. Voluptates optio placeat porro non. Possimus vitae necessitatibus illo harum, esse nisi magni corporis laborum ipsam quae aut eveniet distinctio vero libero officia quaerat culpa impedit a delectus. Facilis nam deserunt sapiente eaque quas iste rerum itaque similique tenetur natus voluptatum vitae voluptatem delectus nisi minima omnis est distinctio nihil dolor, error hic? Obcaecati culpa ratione nemo molestiae omnis inventore, doloremque atque nulla quos. Mollitia provident distinctio veniam doloribus? In aspernatur autem perspiciatis cupiditate quasi possimus pariatur omnis, at architecto.</p>
+          <Code />
         </div>
 
       </div>

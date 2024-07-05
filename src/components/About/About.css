@@ -18,7 +18,7 @@
 }
 
 .about .folder-tab {
-    width: 17%;
+    width: 260px;
     height: 100%;
     border-right: 1px solid #1E2D3D;
 }
@@ -36,7 +36,7 @@
 }
 
 .about .folder-tab .folder {
-    padding: 10px 80px 10px 34px;
+    padding: 10px 70px 10px 34px;
     border-bottom: 1px solid #1E2D3D;
     /* line-height: 1.5; */
 }
@@ -53,6 +53,10 @@
     cursor: pointer;
 }
 
+.about .folder-tab .folder .file {
+    padding-left: 18px;
+}
+
 .about .folder-main {
     width: 40%;
     height: 100%;
@@ -60,20 +64,36 @@
     /* border-bottom: 1px solid #1E2D3D; */
 }
 
-.about .folder-main .main-tab {
+/* .about .folder-main .main-tab {
     width: 220px;
     height: 45px;
     display: flex;
     align-items: center;
     justify-content: center;
-    /* padding: 10px 80px 10px 34px; */
     border-bottom: 1px solid #1E2D3D;
     border-right: 1px solid #1E2D3D;
-}
+} */
 
-.about .folder-main .about .folder-main .main-tab p {
+.about header{
+    width: 595px;
+    height: 45px;
     display: flex;
     align-items: center;
     gap: 45px;
     cursor: pointer;
+    border-bottom: 1px solid #1E2D3D;
+    border-right: 1px solid #1E2D3D;
+}
+
+.about .folder-main header p {
+    width: 220px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #1E2D3D;
+}
+
+.about .folder-main .text{
+    padding: 40px;
 }
