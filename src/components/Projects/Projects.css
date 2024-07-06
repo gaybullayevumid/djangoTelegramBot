@@ -1,10 +1,99 @@
 .projects {
     width: 100%;
     height: 84vh;
+    display: flex;
 }
 
-.projects .sidebar{
-    width: 20%;
+.projects .sidebar {
+    width: 334px;
     height: 100%;
     border-right: 1px solid #1E2D3D;
+}
+
+.projects .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects .project-section {
+    /* width: 60%; */
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+.projects .cards {
+    width: 370px;
+    height: 314px;
+    border: 1px solid #1E2D3D;
+    border-radius: 15px;
+}
+
+.projects .cards p {
+    padding: 20px;
+}
+
+.projects .cards button {
+    border-radius: 8px;
+    width: 129px;
+    height: 38px;
+    font-weight: 450;
+    font-size: 14px;
+    color: #fff;
+    border: none;
+    background: #1c2b3a;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.projects .title-p span {
+    font-weight: 450;
+    color: #5565E8;
+    line-height: 1.9;
+}
+
+.projects .sidebar ul{
+    padding: 30px;
+}
+
+.projects .sidebar ul li{
+    line-height: 1.9;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: #607b96;
+    cursor: pointer;
+}
+
+.projects .sidebar ul li:hover{
+    color: #fff;
+}
+
+.projects .sidebar ul li input{
+    width: 20px;
+    height: 20px;
+    accent-color: #607b96;
+}
+
+.projects .sidebar .title{
+    border: 1px solid #1E2D3D;
+    padding: 10px 215px 10px 22px;
+}
+
+.projects .sidebar .title p{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.projects .sidebar .title p:hover{
+    color: #fff;
 }
