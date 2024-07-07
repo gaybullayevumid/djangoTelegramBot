@@ -58,41 +58,51 @@
     line-height: 1.9;
 }
 
-.projects .sidebar ul{
+.projects .sidebar ul {
     padding: 30px;
 }
 
-.projects .sidebar ul li{
-    line-height: 1.9;
+.projects .sidebar ul li label {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.projects .sidebar ul li {
     display: flex;
     align-items: center;
+    line-height: 1.9;
     gap: 15px;
     color: #607b96;
     cursor: pointer;
+    list-style: none;
 }
 
-.projects .sidebar ul li:hover{
+.projects .sidebar ul li:hover {
     color: #fff;
 }
 
-.projects .sidebar ul li input{
+.projects .sidebar ul li input {
     width: 20px;
     height: 20px;
     accent-color: #607b96;
 }
 
-.projects .sidebar .title{
+.projects .sidebar .title {
     border: 1px solid #1E2D3D;
     padding: 10px 215px 10px 22px;
 }
 
-.projects .sidebar .title p{
+.projects .sidebar .title p {
     display: flex;
     align-items: center;
     gap: 10px;
     cursor: pointer;
 }
 
-.projects .sidebar .title p:hover{
+.projects .sidebar .title p:hover {
     color: #fff;
 }

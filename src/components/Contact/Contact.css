@@ -40,6 +40,16 @@
     border-top: 1px solid #1E2D3D;
 }
 
-.contact .contact-main{
-    
+.contact .contact-main header{
+    height: 45px;
+    width: 100%;
+    border-bottom: 1px solid #1E2D3D;
+}
+
+.contact .contact-main header p{
+    display: flex;
+    align-items: center;
+    gap: 44px;
+    padding: 10px;
+    border-right: 1px solid #1E2D3D;
 }
