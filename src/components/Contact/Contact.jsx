@@ -1,5 +1,7 @@
 import React from 'react'
 import './Contact.css'
+import ContactCode from '../code/ContactCode'
+
 
 export default function Contact() {
   return (
@@ -82,6 +84,21 @@ export default function Contact() {
             </svg>
           </p>
         </header>
+        <div className="main-section">
+          <form action="">
+            <label htmlFor="name">_name:</label> <br />
+            <input type="text" id='name' /> <br />
+            <label htmlFor="email">_email:</label> <br />
+            <input type="email" id='email' /> <br />
+            <label htmlFor="text">_message:</label> <br />
+            <input type="text" id='text' /> <br />
+            <button>submit-message</button> <br />
+          </form>
+
+          <div className="code">
+            <ContactCode />
+          </div>
+        </div>
       </div>
     </div>
   )

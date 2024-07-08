@@ -27,12 +27,12 @@ function Code() {
     }, []);
     return (
         <CodeMirror
-        value={value} 
-        theme={okaidia} 
-        height="100%" 
-        extensions={[javascript({ jsx: true })]} 
-        onChange={onChange} 
-        editable={false}/>
+            value={value}
+            theme={okaidia}
+            height="100%"
+            extensions={[javascript({ jsx: true })]}
+            onChange={onChange}
+            editable={false} />
     );
 }
 export default Code;
