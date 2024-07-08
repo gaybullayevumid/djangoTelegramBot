@@ -59,9 +59,10 @@
     justify-content: center;
     align-items: center;
     transition: .5s;
+    border-bottom: 1px solid transparent;
 }
 
 .navbar ul li a:hover {
     color: #fff;
-    border-bottom: 1px solid #FEA55F;
+    border-color: #FEA55F;
 }
