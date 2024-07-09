@@ -3,7 +3,7 @@ import CodeMirror from '@uiw/react-codemirror';
 import { javascript } from '@codemirror/lang-javascript';
 import { okaidia } from '@uiw/codemirror-theme-okaidia';
 
-function App() {
+function ContactCode() {
     const [value, setValue] = React.useState(`const button = document.querySelector('#sendBtn');
     const message = {
     name: "Jonathan Davis",
@@ -24,4 +24,4 @@ function App() {
         theme={okaidia}
     />;
 }
-export default App;
+export default ContactCode;

@@ -20,8 +20,9 @@
     height: 100%;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
+    flex: start;
     gap: 20px;
     padding: 20px;
     overflow-y: scroll;

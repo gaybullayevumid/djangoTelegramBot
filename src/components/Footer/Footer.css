@@ -4,7 +4,8 @@
     align-items: center;
     border-top: 1px solid #1E2D3D;
     border-bottom: 1px solid #1E2D3D;
-    position: relative;
+    position: fixed;
+    bottom: 0;
 }
 
 .footer ul {
