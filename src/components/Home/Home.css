@@ -9,7 +9,7 @@
 
 
 
-.home-mobile{
+.home-mobile {
     display: none;
 }
 
@@ -38,12 +38,12 @@ p {
     line-height: 1.5;
 }
 
-.cm-scroller{
+.cm-scroller {
     font-size: 13px;
 }
 
 @media only screen and (max-width: 565px) {
-    .home{
+    .home {
         display: none;
     }
 
@@ -62,13 +62,13 @@ p {
         font-size: 40px;
     }
 
-    .home-mobile h3{
+    .home-mobile h3 {
         font-size: 20px;
         color: #43d9ad;
         margin-bottom: 300px;
     }
 
-    .home-mobile p{
+    .home-mobile p {
         font-size: 14px;
     }
 }
