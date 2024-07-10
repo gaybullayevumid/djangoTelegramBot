@@ -38,7 +38,7 @@ p {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        padding: 30px 100px;
+        padding: 10px 100px;
     }
 
     .home .game{
