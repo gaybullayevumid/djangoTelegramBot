@@ -5,7 +5,8 @@ import { javascript } from '@codemirror/lang-javascript';
 import { okaidia } from '@uiw/codemirror-theme-okaidia';
 
 function CodeGithub() {
-    const [value, setValue] = React.useState(`const githubLink = “https://github.com/example/url”`);
+    const [value, setValue] = React.useState(`const githubLink = 
+“https://github.com/example/url”`);
     const onChange = React.useCallback((val, viewUpdate) => {
         console.log('val:', val);
         setValue(val);
@@ -14,10 +15,12 @@ function CodeGithub() {
         <CodeMirror
             value={value}
             theme={okaidia}
+            width="100%"
             height="100%"
             extensions={[javascript({ jsx: true })]}
             onChange={onChange}
-            editable={false} />
+            editable={false}
+            />
     );
 }
 export default CodeGithub;
