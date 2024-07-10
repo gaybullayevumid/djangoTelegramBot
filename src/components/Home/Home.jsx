@@ -1,5 +1,6 @@
 import React from 'react'
 import './Home.css'
+import CodeGithub from '../code/CodeGithub'
 
 export default function Home() {
   return (
@@ -24,7 +25,7 @@ export default function Home() {
         <h3> >Full Stack developer</h3>
 
         <p>// find my profile on Github:</p>
-        <p>const githubLink = “https://github.com/example/url”</p>
+          <CodeGithub/>
       </div>
     </>
   )
