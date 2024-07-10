@@ -20,7 +20,7 @@ function CodeGithub() {
             extensions={[javascript({ jsx: true })]}
             onChange={onChange}
             editable={false}
-            />
+        />
     );
 }
 export default CodeGithub;

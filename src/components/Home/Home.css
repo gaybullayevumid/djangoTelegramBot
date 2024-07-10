@@ -38,6 +38,10 @@ p {
     line-height: 1.5;
 }
 
+.cm-scroller{
+    font-size: 13px;
+}
+
 @media only screen and (max-width: 565px) {
     .home{
         display: none;
