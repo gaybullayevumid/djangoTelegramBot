@@ -38,6 +38,7 @@ p {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        align-items: start;
         padding: 10px 100px;
     }
 
