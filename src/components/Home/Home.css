@@ -31,3 +31,25 @@ p {
     font-size: 16px;
     line-height: 1.5;
 }
+
+@media only screen and (min-width: 345px) {
+    .home{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 30px 100px;
+    }
+
+    .home .game{
+        display: none;
+    }
+
+    .home h1 {
+        font-size: 40px;
+    }
+
+    .home h3{
+        font-size: 20px;
+    }
+}
