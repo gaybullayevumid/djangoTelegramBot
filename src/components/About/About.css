@@ -104,6 +104,8 @@
     width: 560px;
     height: 100%;
     /* border: 1px solid red; */
+    overflow-y: scroll;
+    scrollbar-width: none;
 }
 
 .about .blogs .blog {
@@ -113,7 +115,6 @@
     width: 100%;
     /* border: 1px solid red; */
     padding: 20px;
-    overflow: scroll;
 }
 
 .about .blog .account {

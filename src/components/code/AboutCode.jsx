@@ -5,13 +5,12 @@ import { okaidia } from '@uiw/codemirror-theme-okaidia';
 
 
 function AboutCode() {
-    const [value, setValue] = React.useState(`function initializeModelChunk<T>(chunk: ResolvedModelChunk): T {
-    const value: T = parseModel(chunk._response, chunk._value);
-    const initializedChunk: InitializedChunk<T> = (chunk: any);
-    initializedChunk._status = INITIALIZED;
-    initializedChunk._value = value;
-    return value;
-}`);
+    const [value, setValue] = React.useState(`import coffee
+while CoffeePot.level() > 0:
+    CoffeeCup.drink()
+    if CoffeeCup.empty():
+        Coffee.fill(CoffeePot)
+    Work.GetSomeShitDone()`);
     const onChange = React.useCallback((val, viewUpdate) => {
         console.log('val:', val);
         setValue(val);
