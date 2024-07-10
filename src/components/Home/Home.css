@@ -52,8 +52,8 @@ p {
     }
 
     .home-mobile h1 {
+        line-height: 1.4;
         font-size: 40px;
-        line-height: 1.9;
     }
 
     .home-mobile h3{
