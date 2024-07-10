@@ -7,6 +7,10 @@
     gap: 20px;
 }
 
+.home-mobile{
+    display: none;
+}
+
 h5 {
     color: #E5E9F0;
     font-weight: 400;
@@ -34,35 +38,32 @@ p {
 
 @media only screen and (min-width: 345px) and (max-width: 991px) {
     .home{
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
+        /* width: 100%; */
+        display: none;
+        /* flex-wrap: wrap;
         justify-content: center;
         align-items: start;
-        padding: 10px 100px;
+        padding: 10px 100px; */
     }
 
-    .home .text{
+    .home-mobile {
         display: flex;
         flex-direction: column;
         align-items: start;
         justify-content: center;
+        padding: 10px 30px;
     }
 
-    .home .game{
-        display: none;
-    }
-
-    .home h1 {
+    .home-mobile h1 {
         font-size: 40px;
     }
 
-    .home h3{
+    .home-mobile h3{
         font-size: 20px;
         color: #43d9ad;
     }
 
-    .home p{
+    .home-mobile p{
         font-size: 14px;
     }
 }

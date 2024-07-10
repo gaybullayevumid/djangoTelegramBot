@@ -17,6 +17,15 @@ export default function Home() {
           <img src={"/Snake Game.png"} />
         </div>
       </div>
+
+      <div className="home-mobile">
+        <h5>Hi all. I am</h5>
+        <h1>Umid G'aybullayev</h1>
+        <h3> >Full Stack developer</h3>
+
+        <p>// find my profile on Github:</p>
+        <p>const githubLink = “https://github.com/example/url”</p>
+      </div>
     </>
   )
 }
