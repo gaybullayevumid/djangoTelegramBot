@@ -6,7 +6,7 @@ import { okaidia } from '@uiw/codemirror-theme-okaidia';
 
 function CodeGithub() {
     const [value, setValue] = React.useState(`const githubLink = 
-“https://github.com/example/url”`);
+“https://github.com/gaybullayevumid”`);
     const onChange = React.useCallback((val, viewUpdate) => {
         console.log('val:', val);
         setValue(val);
