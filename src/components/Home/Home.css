@@ -42,6 +42,13 @@ p {
         padding: 10px 100px;
     }
 
+    .home .text{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+    }
+
     .home .game{
         display: none;
     }
