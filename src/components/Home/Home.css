@@ -51,5 +51,10 @@ p {
 
     .home h3{
         font-size: 20px;
+        color: #43d9ad;
+    }
+
+    .home p{
+        font-size: 14px;
     }
 }
