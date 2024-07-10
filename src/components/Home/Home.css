@@ -36,14 +36,9 @@ p {
     line-height: 1.5;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 565px) {
     .home{
-        /* width: 100%; */
         display: none;
-        /* flex-wrap: wrap;
-        justify-content: center;
-        align-items: start;
-        padding: 10px 100px; */
     }
 
     .home-mobile {
@@ -58,6 +53,7 @@ p {
 
     .home-mobile h1 {
         font-size: 40px;
+        line-height: 1.9;
     }
 
     .home-mobile h3{

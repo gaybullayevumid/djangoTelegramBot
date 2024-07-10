@@ -67,9 +67,24 @@
     border-color: #FEA55F;
 }
 
-@media only screen and (min-width: 345px){
-    .navbar{
-        /* display: none; */
-        overflow: hidden;
+@media only screen and (max-width: 565px) {
+    .navbar {
+        display: none;
+    }
+
+    .mobile-navbar {
+        width: 100%;
+        border-bottom: 1px solid #1E2D3D;
+        padding: 17px 20px;
+        display: flex;
+    }
+
+    .mobile-navbar a {
+        color: #607B96;
+        text-decoration: none;
+    }
+
+    .mobile-navbar i{
+        color: red;
     }
 }
