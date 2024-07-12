@@ -94,7 +94,6 @@
 
 .about .blogs {
     width: 560px;
-    height: 100%;
     overflow-y: scroll;
     scrollbar-width: none;
 }
@@ -136,7 +135,55 @@
         flex-wrap: wrap;
     }
 
-    .about .menu{
+    .about .menu {
         display: none;
+    }
+
+    .about .folder {
+        display: none;
+    }
+
+    .about .folder-tab {
+        width: 100%;
+        border: none;
+    }
+
+    .about .folder-tab .title {
+        border: none;
+        background: #1e2d3d;
+        margin: 5px 0;
+    }
+
+    .about-main header {
+        border: none;
+    }
+
+    .about-main header p {
+        display: none;
+    }
+
+    .about .text {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .blogs {
+        overflow: visible;
+    }
+
+    .account {
+        display: flex;
+    }
+
+    .account .username h5 {
+        font-size: 16px;
+    }
+
+    .about .blogs .blog {
+        height: 200px;
+    }
+
+    .about .text .about-code {
+        height: 400px;
     }
 }
