@@ -70,3 +70,15 @@ p {
         font-size: 14px;
     }
 }
+
+@media screen and (max-width: 767px) and (min-width: 566px){
+    
+    .home{
+        display: none;
+    }
+    
+    .home-mobile{
+        width: 100%;
+        height: 100%;
+    }
+}

@@ -35,8 +35,6 @@ export default function Header() {
                     <path d="M0 0H18V2H0V0ZM0 7H18V9H0V7ZM0 14H18V16H0V14Z" fill="#607B96" />
                 </svg></p>
             </div>
-
-            
         </>
     )
 }

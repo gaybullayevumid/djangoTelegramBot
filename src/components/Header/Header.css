@@ -62,7 +62,7 @@
     border-bottom: 1px solid transparent;
 }
 
-.mobile-navbar{
+.mobile-navbar {
     display: none;
 }
 
@@ -90,7 +90,7 @@
         text-decoration: none;
     }
 
-    .mobile-navbar i{
+    .mobile-navbar i {
         color: red;
     }
 }
