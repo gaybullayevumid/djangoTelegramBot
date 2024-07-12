@@ -40,7 +40,7 @@ p {
     font-size: 13px;
 }
 
-@media only screen and (max-width: 565px) {
+@media screen and (max-width: 566px) {
     .home {
         display: none;
     }
@@ -57,7 +57,7 @@ p {
 
     .home-mobile h1 {
         line-height: 1.4;
-        font-size: 40px;
+        font-size: 60px;
     }
 
     .home-mobile h3 {
@@ -88,8 +88,8 @@ p {
     }
 
     .home-mobile h1 {
-        line-height: 1.4;
-        font-size: 50px;
+        line-height: 1.2;
+        font-size: 55px;
     }
 
     .home-mobile h3 {
@@ -103,7 +103,7 @@ p {
     }
 }
 
-@media screen and (max-width: 991px) and (min-width: 768px) {
+@media screen and (max-width: 991px) and (min-width: 767px) {
     .home {
         display: none;
     }
@@ -119,22 +119,22 @@ p {
     }
 
     .home-mobile h1 {
-        line-height: 1.9;
-        font-size: 50px;
+        line-height: 1.2;
+        font-size: 80px;
     }
 
     .home-mobile h3 {
-        font-size: 25px;
+        font-size: 30px;
         color: #43d9ad;
         margin-bottom: 300px;
     }
 
     .home-mobile p {
-        font-size: 18px;
+        font-size: 20px;
     }
 }
 
-@media screen and (max-width: 1199px) and (min-width: 992px) {
+@media screen and (max-width: 1199px) and (min-width: 991px) {
     .home {
         display: none;
     }
@@ -151,7 +151,7 @@ p {
 
     .home-mobile h1 {
         line-height: 1.9;
-        font-size: 50px;
+        font-size: 65px;
     }
 
     .home-mobile h3 {
@@ -162,5 +162,13 @@ p {
 
     .home-mobile p {
         font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .home{
+        width: 100%;
+        height: 100%;
+        padding: 70px;
     }
 }
