@@ -129,3 +129,14 @@
     background: #011221;
     padding: 20px;
 }
+
+@media screen and (max-width: 566px) {
+    .about {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .about .menu{
+        display: none;
+    }
+}
