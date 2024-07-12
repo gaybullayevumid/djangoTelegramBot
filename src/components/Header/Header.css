@@ -62,6 +62,10 @@
     border-bottom: 1px solid transparent;
 }
 
+.mobile-navbar{
+    display: none;
+}
+
 .navbar ul li a:hover {
     color: #fff;
     border-color: #FEA55F;
