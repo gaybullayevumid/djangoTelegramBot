@@ -53,8 +53,20 @@
     align-items: center;
 }
 
-@media only screen and (max-width: 767px){
-    .footer{
+@media only screen and (max-width: 767px) {
+    .footer {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767px) and (min-width: 566px) {
+    .footer {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+    .footer {
         display: none;
     }
 }
