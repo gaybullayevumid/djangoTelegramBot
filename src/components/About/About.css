@@ -251,10 +251,10 @@
         color: #fff;
     }
 
-    .about .blog{
+    .about .blogs {
         width: 100%;
-        height: 100%;
         border: 1px solid red;
+        overflow: visible;
     }
 
     .blog {
@@ -262,7 +262,7 @@
         overflow: visible;
     }
 
-    .code-text {
+    .cm-editor {
         width: 100%;
     }
 }
