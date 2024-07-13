@@ -116,7 +116,7 @@ export default function About() {
             +998930850955
           </p>
         </div>
-      </div>
+      </div> 
 
       <div className="about-main">
         <header>
