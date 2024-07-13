@@ -129,6 +129,10 @@
     padding: 20px;
 }
 
+.title-about {
+    display: none;
+}
+
 @media screen and (max-width: 566px) {
     .about {
         display: flex;
@@ -171,6 +175,10 @@
         overflow: visible;
     }
 
+    .blogs>p {
+        margin-left: 25px;
+    }
+
     .account {
         display: flex;
     }
@@ -185,5 +193,76 @@
 
     .about .text .about-code {
         height: 400px;
+    }
+
+    .title-about {
+        display: flex;
+        padding: 20px;
+        color: #fff;
+    }
+}
+
+@media screen and (max-width: 767px) and (min-width: 566px) {
+    .about {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .about .menu {
+        display: none;
+    }
+
+    .about .folder {
+        display: none;
+    }
+
+    .about .folder-tab {
+        width: 100%;
+        border: none;
+    }
+
+    .about .folder-tab .title {
+        border: none;
+        background: #1e2d3d;
+        margin: 5px 0;
+    }
+
+    .about-main header {
+        border: none;
+    }
+
+    .about-main header p {
+        display: none;
+    }
+
+    .about .text {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .cm-scroller {
+        font-size: 20px;
+    }
+
+    .title-about {
+        display: flex;
+        padding: 20px;
+        color: #fff;
+    }
+
+    .about .blog{
+        width: 100%;
+        height: 100%;
+        border: 1px solid red;
+    }
+
+    .blog {
+        width: 100%;
+        overflow: visible;
+    }
+
+    .code-text {
+        width: 100%;
     }
 }

@@ -18,6 +18,7 @@ while CoffeePot.level() > 0:
     return <CodeMirror
         value={value}
         height="100%"
+        width="100%"
         extensions={[javascript({ jsx: true })]} onChange={onChange}
         editable={false}
         theme={okaidia}

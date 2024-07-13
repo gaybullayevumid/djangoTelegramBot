@@ -42,12 +42,15 @@ export default function About() {
       </div>
 
       <div className="folder-tab">
+        <p className='title-about'>_about-me</p>
         <p className="title">
           <svg width="9" height="7" viewBox="0 0 9 7" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M4.74998 6.65186L0.499969 0.651856L9 0.651855L4.74998 6.65186Z" fill="white" />
           </svg>
           personal-info
         </p>
+
+        
 
         <div className="folder">
           <p className="folder-item">
@@ -94,6 +97,19 @@ export default function About() {
             university
           </p>
         </div>
+        <p className="title">
+          <svg width="9" height="7" viewBox="0 0 9 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4.74998 6.65186L0.499969 0.651856L9 0.651855L4.74998 6.65186Z" fill="white" />
+          </svg>
+          professional-info
+        </p>
+
+        <p className="title">
+          <svg width="9" height="7" viewBox="0 0 9 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4.74998 6.65186L0.499969 0.651856L9 0.651855L4.74998 6.65186Z" fill="white" />
+          </svg>
+          hobbies
+        </p>
 
         <p className="title">
           <svg width="9" height="7" viewBox="0 0 9 7" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -136,6 +152,7 @@ export default function About() {
         </header>
 
         <div className="text">
+          {/* <p >// personal-info <span>/ bio</span></p> */}
           <div className="about-code">
             <Code />
           </div>
