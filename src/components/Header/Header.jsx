@@ -7,7 +7,7 @@ export default function Header() {
         <>
             <div className='navbar'>
                 <div className="logo">
-                    <Link to={"/"}>umid-g'aybullayev</Link>
+                    <Link to={"/"}>umid-gaybullayev</Link>
                 </div>
                 <ul>
                     <li className='active'>
@@ -28,7 +28,7 @@ export default function Header() {
 
             <div className="mobile-navbar">
                 <div className="logo">
-                    <Link to={"/"}>umid-g'aybullayev</Link>
+                    <Link to={"/"}>umid-gaybullayev</Link>
                 </div>
 
                 <p><svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
